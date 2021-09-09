@@ -13,7 +13,7 @@ const checkButtonHandler = () => {
   if (profit >= 0) {
     answer.innerHTML = `Your Profit is ${profit} and percentage is ${profitPercent}%`;
   } else {
-    answer.innerHTML = `Your Profit is ${profit * -1} and percentage is ${
+    answer.innerHTML = `Your loss is ${profit * -1} and percentage is ${
       profitPercent * -1
     }%`;
   }
